@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[1] / 'docs'
 
 class Check(HTMLParser):
     def __init__(self):
